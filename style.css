@@ -3,6 +3,7 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
    opacity: 70%;
+  
     
 }
 
@@ -23,11 +24,21 @@ h1{
     text-align: center;
     padding-top: 20px;
     font-size: 30px ;
+    font-family: 'Luckiest Guy', cursive;
+    color:rgb(17, 49, 72);
+    font-style:unset;
+    
 }
-
+h2{
+    font-family: 'Alegreya', serif;
+    color:rgb(17, 49, 72);
+}
 
 label{
  font-size: 20px;
+ font-family: 'Alegreya', serif;
+ color:rgb(17, 49, 72);
+
     
 }
 
@@ -66,12 +77,15 @@ button{
     float: right;
     margin-top: 50px;
     margin-right: 90px;
+    font-family: 'Alegreya', serif;
 }
 
 .div4{
     float: left;
     margin-top: 50px;
     margin-left: 90px;
+    font-family: 'Alegreya', serif;
+    
 }
 
 .saidaP{
