@@ -1,16 +1,22 @@
 body{
-    background-color: blue;
+   background-image: url(images.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 70%;
+    
 }
 
 
 section{
     border-style: solid;
     border-radius: 50px;
+    border: 1px;
     background-color: white;
     width: 600px;
     height:900px ;
     margin-left: 350px;
     margin-top: 50px;
+    
 }
 
 h1{
@@ -35,7 +41,14 @@ input{
 button{
     margin-left: 270px;
     margin-top: 50px;
-    width: 80px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition-duration: 3s;
 }
 
 
@@ -60,3 +73,40 @@ button{
     margin-top: 50px;
     margin-left: 90px;
 }
+
+.saidaP{
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.normal{
+    background: rgb(0, 255, 42);
+    padding:  10px 10px;
+    opacity: 90%;
+}
+.alerta{
+
+    background: rgb(217, 255, 0);
+    padding:  10px 10px;
+    opacity: 90%;
+}
+.foraDoPeso{
+    
+    background: red;
+    padding:  10px 10px;
+    opacity: 90%;
+}
+
+
+
+button:hover{
+background-color: gray;
+transform: scale(1.2);
+}
+
+input:hover{
+    border-color: rgb(92, 114, 241);
+    
+}
+
