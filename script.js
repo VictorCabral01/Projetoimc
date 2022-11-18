@@ -34,10 +34,10 @@ function myFunction(evento) {
         nivel = "Abaixo do peso"
     }
 
-
-    if(resultado >= 18.5 <= 23.9 ){ criarP.classList.add('alerta')}
-     if(resultado >= 24.9 <= 29.9 ){ criarP.classList.add('normal')}
-      if(resultado >= 24.8 ){ criarP.classList.add('foraDoPeso')}
+    
+    if(resultado <= 18.5 ){ criarP.classList.add('alerta')}
+    if(resultado >= 18.6 ){ criarP.classList.add('normal')}
+    if(resultado >= 24.9 ){ criarP.classList.add('foraDoPeso')}
     
 
     
